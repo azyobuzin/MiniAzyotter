@@ -1,0 +1,8 @@
+﻿(load "References")
+
+(FileStream "MainWindow.xaml" FileMode.Open FileAccess.Read).(let fs
+	XamlReader.(Load fs).(let window
+		fs.(Close)
+		(Application).(Run window.(to Window))
+	)
+)

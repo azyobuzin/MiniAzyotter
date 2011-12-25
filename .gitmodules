@@ -1,0 +1,3 @@
+[submodule "Yacq"]
+	path = Yacq
+	url = git://github.com/takeshik/yacq.git

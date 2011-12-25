@@ -1,0 +1,2 @@
+MSBuild Yacq\Yacq\Yacq.csproj /p:Configuration=Debug
+csc Bootstrapper.cs /r:Yacq\Yacq\bin\Debug\System.Interactive.dll /r:Yacq\Yacq\bin\Debug\System.Interactive.Providers.dll /r:Yacq\Yacq\bin\Debug\System.Reactive.dll /r:Yacq\Yacq\bin\Debug\System.Reactive.Providers.dll /r:Yacq\Yacq\bin\Debug\Yacq.dll

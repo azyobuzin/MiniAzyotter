@@ -1,0 +1,4 @@
+﻿(assembly "PresentationFramework")
+(load "cts:System.IO")
+(load "cts:System.Windows")
+(load "cts:System.Windows.Markup")
